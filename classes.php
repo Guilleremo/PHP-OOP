@@ -1,13 +1,13 @@
 <?php
 	class Cat {
-		public $firstName = "Juan";
-		public $lastName = "Carlos";
-		public $gender = "male";
+		public $firstName;
+		public $lastName;
+		public $gender "male";
 		public $price = "0";
 
 		function getName() {
-		return “{$this->firstName}” .
-		“{$this->lastName}”;
+		return "{$this->firstName}" .
+		"{$this->lastName}";
 	}
 }
 		$cat1 = new Cat();
@@ -16,14 +16,14 @@
 		print "The cat’s name is {$cat1>getName()}.";
 
 	class Tiger {
-		public $firstName = "Juanita";
-		public $lastName = "Lopez";
+		public $firstName = "";
+		public $lastName = "";
 		public $gender = "female";
 		public $price = "$100,000";
 
 		function getName() {
-		return “{$this->firstName}” .
-		“{$this->lastName}”;
+		return "{$this->firstName}" .
+		"{$this->lastName}";
 	}
 }
 		$tiger1 = new Tiger();
@@ -32,14 +32,14 @@
 		print "The cat’s name is {$tiger1>getName()}.";
 
 	class Elephant {
-		public $firstName = "Junior";
-		public $lastName = "Rodriguez";
+		public $firstName = "";
+		public $lastName = "";
 		public $gender = "male";
 		public $price = "$100,000,000";
 
 		function getName() {
-		return “{$this->firstName}” .
-		“{$this->lastName}”;
+		return "{$this->firstName}" .
+		"{$this->lastName}";
 	}
 }
 		$elephant1 = new Elephant();
@@ -82,4 +82,35 @@
 			"{$this­>lastName}";
 			}
 }
+
+?>
+<?php
+	if (is_integer('1'))echo "It is an integer ;)";
+	else
+	echo 'It is not an integer';
+	var_dump(is_integer('2'));
+	var_dump(is_integer('3'));
+	var_dump(is_integer('4'));
+	var_dump(is_integer('5'));
+?>
+
+<?php
+	if (is_integer('1'))echo "It is an integer ;)";
+	else
+	echo 'It is not an integer';
+	var_dump(is_integer('2'));
+	var_dump(is_integer('3'));
+	var_dump(is_integer('4'));
+	var_dump(is_integer('5'));
+?>
+
+<?php
+	if (is_integer('1'))echo "It is an integer ;)";
+	else
+	echo 'It is not an integer';
+	var_dump(is_integer('2'));
+	var_dump(is_integer('3'));
+	var_dump(is_integer('4'));
+	var_dump(is_integer('5'));
+?>
 
